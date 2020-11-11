@@ -1,0 +1,151 @@
+.description {
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.send-link {
+    height: 35px;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    max-width: 350px;
+    margin: 0 auto;
+}
+.ps-search--widget {
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.ps-search--widget > input {
+    padding: 0 20px;
+    height: 40px;
+    background-color: #fff;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    border-radius: 0;
+    font-size: 13px;
+    border: 1px solid #c1c1c1;
+    padding: 0 16px 0 44px;
+    border-radius: 4px;
+}
+.ps-search--widget > button {
+    right: 10px;
+    color: #000;
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 53%;
+}
+.ps-icon-search {
+    font-size: 20px;
+}
+.content-container .container {
+    background-color: #ffffff;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-5 {
+    margin-bottom: 5px;
+}
+.mb-50 {
+    margin-bottom: 50px;
+}
+.mt-10 {
+    margin-top: 10px !important;
+}
+.mt-20 {
+    margin-top: 20px !important;
+}
+.mt-50 {
+    margin-top: 50px !important;
+}
+.mt-40 {
+    margin-top: 20px;
+}
+.submit {
+    padding: 6px 15px;
+    border: 1px solid #ddd;
+}
+.right-part {
+    max-width: 350px;
+    margin: 0 auto;
+}
+.links {
+    margin: 10px 0 20px;
+}
+.appstore, .playstore {
+    cursor: pointer;
+}
+.hero_content {
+    background-image: none;
+}
+.download-upped {
+    color: #389a7f;
+}
+.floating {
+    position: absolute;
+    z-index: 1;
+    top: 7px;
+    left: 25px;
+    transition: all 200ms;
+    opacity: 0.5;
+}
+.form-control:focus + .floating,
+.form-control:valid + .floating {
+    position: absolute;
+    z-index: 1;
+    top: -6px;
+    left: 25px;
+    background: #fff;
+    padding: 0 5px;
+    font-size: 11px;
+    transform: translate3d(0, -10%, 0);
+    opacity: 1;
+}
+.form-control {
+    height: 35px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0 10px;
+    position: relative;
+}
+.enter-email {
+    margin-top: 10px;
+}
+@media (max-width: 768px) {
+    .mt-40 {
+        margin-top: 0;
+    }
+    .mb-50 {
+        margin-bottom: 10px;
+    }
+    .mt-50 {
+        margin-top: 15px !important;
+    }
+    .description {
+        margin-top: 10px;
+    }
+    .custoom-width-styl {
+      width: 100%;
+    }
+    .content-container.up-your-event-section {
+      padding-bottom: 20px;
+    }
+    .mb-20 {
+        margin-bottom: 5px;
+    }
+    .mt-20 {
+        margin-top: 10px !important;
+    }
+}

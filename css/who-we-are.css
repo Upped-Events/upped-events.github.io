@@ -1,0 +1,102 @@
+
+.fancy {
+  line-height: 0.5;
+  text-align: center;
+}
+.fancy span {
+  display: inline-block;
+  position: relative;  
+}
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid #ccc;
+  top: 0;
+  width: 100%;
+}
+.fancy span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+.sub-header {
+  margin: 0;
+  padding-bottom: 10px;
+}
+.our-story-heading {
+  text-align: center;
+  color: #389a7f;
+  margin-top: 50px !important;
+}
+.content-container .container {
+    background-color: #ffffff;
+}
+.designation {
+  color: #389a7f;
+  margin-bottom: -5px;
+}
+.our-mission-heading {
+    text-align: center;
+    color: #389a7f;
+    margin-top: 25px !important;
+    margin-bottom: 25px !important;
+}
+.our-team-heading {
+  text-align: center;
+  color: #389a7f;
+  margin-top: 50px !important;
+  margin-bottom: 25px !important;
+}
+.our-story-content {
+  text-align: justify;
+  padding: 25px;
+}
+.hero_content {
+  background-image: none;
+}
+.text-justify {
+  text-align: justify;
+  padding-top: 5px;
+}
+.manage-padding {
+  padding: 0 25px;
+}
+.name {
+  font-style: italic;
+}
+@media (max-width: 768px) {
+  .custoom-width-styl {
+    width: 100%;
+  }
+  .manage-padding {
+    padding: 0 0 10px;
+  }
+  .our-story-content {
+    padding: 0;
+  }
+  .our-story-heading {
+    margin-top: 20px !important;
+    margin-bottom: 15px !important;
+  }
+  .our-mission-heading {
+    text-align: center;
+    margin-top: 20px !important;
+    margin-bottom: 15px !important;
+  }
+  .content-container.up-your-event-section {
+    padding-bottom: 20px;
+  }
+  .our-team-heading {
+    margin-top: 20px !important;
+    margin-bottom: 25px !important;
+  }
+  .fancy span:before,
+  .fancy span:after {
+    width: 50%;
+  }
+}
