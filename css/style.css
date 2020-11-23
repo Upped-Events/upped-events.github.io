@@ -5196,6 +5196,7 @@ textarea.form-control {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
+  margin-top: 100px;
 }
 
 @media (max-width: 600px) {
@@ -6743,6 +6744,10 @@ html .bg--parallax {
 
 .top-menu {
   /* background-color: #00D9AA; */
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  width:100%;
+  z-index: 1;
 }
 
 .menu-link-space.active {
@@ -7168,7 +7173,7 @@ margin-top: 14px;
 }
 
 .menu-link-space {
-  color: #58635f !important;
+  .color: #58635f !important;
   font-style: normal;
   font-weight: 400 !important;
   padding: 5px 12px !important;
@@ -7179,14 +7184,14 @@ margin-top: 14px;
 }
 
 .header-logo {
-  color: #000000;
+  color: white;
   font-weight: 600;
   font-size: 24px;
   cursor: pointer;
 }
 
 .menu-link-button {
-  color: #389a7f !important;
+  .color: #389a7f !important;
   position: relative;
   text-transform: uppercase;
   width: 82px;
@@ -7199,7 +7204,7 @@ margin-top: 14px;
   font-weight: 600;
   border-radius: 5px;
   font-family: "Montserrat", sans-serif;
-  background-color: #ffffff;
+  .background-color: #ffffff;
   cursor: pointer;
 }
 /* .menu-link-button:hover {
@@ -7292,8 +7297,8 @@ video{
 }
 .container.ps-container.container-box> .row {
   margin: auto;
-    width: 80%;
-    background: #ffff;
+  width: 100%;
+  .background: #ffff;
 }
 .custoom-width-styl{
 width: 80%;
