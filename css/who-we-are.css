@@ -1,15 +1,14 @@
-
 .fancy {
   line-height: 0.5;
   text-align: center;
 }
 .fancy span {
   display: inline-block;
-  position: relative;  
+  position: relative;
 }
 .fancy span:before,
 .fancy span:after {
-  content: "";
+  content: '';
   position: absolute;
   height: 5px;
   border-bottom: 1px solid #ccc;
@@ -34,27 +33,27 @@
   margin-top: 50px !important;
 }
 .content-container .container {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 .designation {
   color: #389a7f;
-  margin-bottom: -5px;
+  padding-bottom: 5px;
+  margin: 0;
 }
 .our-mission-heading {
-    text-align: center;
-    color: #389a7f;
-    margin-top: 25px !important;
-    margin-bottom: 25px !important;
+  text-align: center;
+  color: #389a7f;
+  margin-top: 25px !important;
+  margin-bottom: 25px !important;
 }
 .our-team-heading {
   text-align: center;
   color: #389a7f;
   margin-top: 50px !important;
-  margin-bottom: 25px !important;
 }
 .our-story-content {
   text-align: justify;
-  padding: 25px;
+  padding: 45px 25px 0px 25px;
 }
 .hero_content {
   background-image: none;
@@ -68,6 +67,14 @@
 }
 .name {
   font-style: italic;
+  padding-bottom: 5px;
+}
+img {
+  max-width: 100%;
+  object-fit: contain;
+}
+.ourTeamSec {
+  padding: 25px;
 }
 @media (max-width: 768px) {
   .custoom-width-styl {
