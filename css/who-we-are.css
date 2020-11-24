@@ -37,7 +37,8 @@
 }
 .designation {
   color: #389a7f;
-  margin-bottom: -5px;
+  padding-bottom: 5px;
+  margin: 0;
 }
 .our-mission-heading {
   text-align: center;
@@ -49,7 +50,6 @@
   text-align: center;
   color: #389a7f;
   margin-top: 50px !important;
-  margin-bottom: 25px !important;
 }
 .our-story-content {
   text-align: justify;
@@ -67,11 +67,13 @@
 }
 .name {
   font-style: italic;
+  padding-bottom: 5px;
 }
 img {
   max-width: 100%;
   object-fit: contain;
 }
+
 @media (max-width: 768px) {
   .custoom-width-styl {
     width: 100%;
