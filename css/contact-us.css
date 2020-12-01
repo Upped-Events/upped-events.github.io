@@ -19,7 +19,7 @@
     transition: all 200ms;
     opacity: 0.5;
 }
-.form-control:focus + .floating,
+.form-control:focus + .floating
 .form-control:valid + .floating {
     position: absolute;
     z-index: 1;
