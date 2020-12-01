@@ -5192,11 +5192,70 @@ textarea.form-control {
 
 .header-block-background-images {
   /* height: calc(100vh - 300px); */
-  background-image: url("../../upped/images/events.png");
+  background-image: url("/images/events-home.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
-  margin-top: 100px;
+  padding-top: 92px;
+/*  margin-top: 92px;*/
+}
+
+.linkBoxHome{
+  background:white;
+  text-align: center;
+  margin:5% 2%;
+  padding:2% 1%;
+  border-radius: 5px;
+  box-shadow: 5px 5px 1px 0px #90EFDA;
+}
+.linkBoxHome h3{
+  margin:0;
+}
+.linkBoxHome p{
+  padding:5%;
+}
+.belowHeadSec{
+  padding:5% 0;
+}
+.midSec{
+  text-align:center;
+  padding:0 0 2% 0; 
+}
+.tealColor{
+  color:#01D9AA;
+}
+.homeTab{
+  width:50%;
+  margin:auto !important;
+}
+.homeTab .tablinks{
+  width: 40%;
+  margin: 0 5%;
+  border:1px solid #01D9AA;
+}
+.homeTabCont .tabcontent{
+  width:75%;
+  margin:auto;
+  padding: 5% 0;
+}
+.homeTabCont .tabcontent .info-section{
+  border:1px solid #E2FAF5;
+  padding:0px;
+  border-radius: 5px;
+}
+.homeTabCont .tabcontent .info-section .content-items{
+  padding:25px 60px 25px 15px;
+}
+.homeTabCont .tabcontent .info-section .content-items-info{
+  background: #E2FAF5;
+  padding:15px 60px 15px 15px;
+}
+.imgCont img{
+  max-width:100%;
+  margin-top: 55px;
+  margin-left: -55px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 1px 0px #01C89D;
 }
 
 @media (max-width: 600px) {
@@ -6755,11 +6814,11 @@ html .bg--parallax {
 }
 
 .content-container {
-  padding: 30px 0;
+  padding: 100px 0;
 }
 
 .content-container .container {
-  box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6);
+  /*box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6);*/
   /* background-color: #ffffff; */
 }
 
@@ -6996,7 +7055,7 @@ html .bg--parallax {
 }
 
 .event-paragraph-p {
-  max-width: 65%;
+  max-width: 75%;
 }
 
 /* Style the tab */
@@ -7666,4 +7725,13 @@ width:80%;margin:auto;
 {
 	
 	padding: 10px;
+}
+
+.belowHeadSec i.fa{
+    font-size: 22px;
+    color: #09BC92;
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 1px 2px 5px -1px #09BC92;
+    padding: 0.6em 0.7em;
 }
