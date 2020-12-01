@@ -181,7 +181,7 @@
               </div>
             </div>
             <div class="get-in-touch col-md-6 col-sm-6">
-              <div class="row no-margin">
+              <form class="row no-margin">
                 <h5 class="get-in-touch-heading">Get in touch with Upped</h5>
                 <div class="mb-20 col-md-6 col-sm-6">
                   <input class="form-control" type="text" id="firstName" required>
@@ -192,7 +192,7 @@
                   <label class="floating" for="lastName">Last Name</label>
                 </div>
                 <div class="mb-20 col-md-12 col-sm-12">
-                  <input class="form-control" type="text" id="organisationName" required>
+                  <input class="form-control" type="text" id="organisationName">
                   <label class="floating" for="organisationName">Organization Name</label>
                 </div>
                 <div class="mb-20 col-md-12 col-sm-12">
@@ -201,6 +201,7 @@
                 </div>
                 <div class="mb-20 col-md-12 col-sm-12 ">
                   <select  class="form-control" id="vendor">
+                    <option value data-isdefault="true"></option>
                     <option value="Vendor">Vendor</option>
                     <option value="Attendee">Attendee</option>
                     <option value="Event Owner">Event Owner</option>
@@ -227,7 +228,7 @@
                     <button class="demo-button">Submit</button>
                   </a>
                 </div>
-              </div>
+              </form>
             </div>
           </div>
         </div>
