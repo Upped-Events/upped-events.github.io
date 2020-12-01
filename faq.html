@@ -130,8 +130,8 @@
       <div class=" ps-container">
         <div class="container custoom-width-styl">
           <div class="row br-2">
-			<input type="text" style="width:90%;">
-			<button class="tablinks" >Search</button>
+			<!-- <input type="text" style="width:90%;">
+			<button class="tablinks" >Search</button> -->
             <div class="info-section faq-part col-md-12 col-sm-12">
               <div class="tab">
                 <button class="tablinks active" onclick="openCity(event, 'all')">All</button>
@@ -140,7 +140,7 @@
                 <button class="tablinks" onclick="openCity(event, 'users')">Account & Billing</button>
                 <button class="tablinks" onclick="openCity(event, 'staff')">Ticketing & Payments</button>
                 <button class="tablinks" onclick="openCity(event, 'other')">Marketing & Engagement</button>
-				<button class="tablinks" onclick="location.href='contact-us.html'" type="button" style="float:right; background-color:#389a7f;color: white;"> Contact Us</button>	
+				        <!-- <button class="tablinks" onclick="location.href='contact-us.html'" type="button" style="float:right; background-color:#389a7f;color: white;"> Contact Us</button>	 -->
               </div>
 			  	  
               <div class="row br-2 general-container" id="general">
@@ -361,6 +361,14 @@ For attendees, UPayments are a simple alternative to worrying about bringing you
                     Meaningfully increase attendee spend at your events  by pairing email, SMS, or push notification marketing campaigns with discounts, promotions and coupon codes. You can define your target audiences for the engagements manually or have Upped’s AI analyze event data and recommend impactful campaigns. At past events, our software solution has resulted in a year over year 50% increase in average attendee spend
                   </p>
                 </div>
+
+              </div>
+              <div>
+                <p>Didn't find the answer you are looking for?</p>
+                <div class="tab" style="display: flex; justify-content: center">
+                  <button class="tablinks" onclick="location.href='contact-us.html'" type="button" style="background-color:#389a7f;color: white;"> Contact Us</button>	
+                </div>
+
 
               </div>
             </div>
@@ -603,7 +611,7 @@ For attendees, UPayments are a simple alternative to worrying about bringing you
       if (document.getElementById(tab)) {
         document.getElementById(tab).style.display = "block";
         var elmnt = document.getElementById(tab);
-        elmnt.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        elmnt.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
       evt.currentTarget.className += " active";
     }
