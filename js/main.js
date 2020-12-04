@@ -100,7 +100,7 @@
         else {
             $('.menu').find('.sub-menu').show();
             header.removeClass('header--mobile');
-            menu.prependTo('.navigation__column.center');
+            menu.prependTo('.navigation__column.right');
             menu.removeClass('menu--mobile');
             $('.header--sidebar').removeClass('active');
             $('.ps-main, .header').removeClass('menu--active');

@@ -5195,7 +5195,7 @@ textarea.form-control {
   background-image: url("/images/events-home.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   padding-top: 92px;
 /*  margin-top: 92px;*/
 }
@@ -5216,6 +5216,7 @@ textarea.form-control {
 }
 .belowHeadSec{
   padding:5% 0;
+  text-align: center;
 }
 .midSec{
   text-align:center;
@@ -5435,45 +5436,12 @@ textarea.form-control {
         margin-left: 10px; }
       .ps-services .owl-next {
         margin-right: 10px; } }
-  @media (max-width: 767px) {
-    .ps-services .ps-service {
-      max-height: 50px;
-      overlow-y: hidden;
-      font-size: 12px;
-    }
-    .ps-services-font {
-      max-height: fit-content !important;
-    }
-
-    .ps-custom-services {
-      font-size: 28px !important;
-      max-height: fit-content !important;
-      max-width: 100% !important;
-    }
-    .ps-custom-services1 {
-      font-size: 18px !important;
-      max-height: fit-content !important;
-      max-width: 100% !important;
-    }
-    .ps-custom-services2 {
-      font-size: 10px !important;
-      max-height: fit-content !important;
-      max-width: 100% !important;
-    }
-  }
 
   @media (max-width: 500px) {
     .ps-custom-services {
       font-size: 20px !important;
     }
     .ps-custom-services1 {
-      font-size: 10px !important;
-    }
-  }
-
-  @media (max-width: 400px) {
-    .demo-button {
-      padding: 5px 10px !important;
       font-size: 10px !important;
     }
   }
@@ -7734,4 +7702,93 @@ width:80%;margin:auto;
     border-radius: 60px;
     box-shadow: 1px 2px 5px -1px #09BC92;
     padding: 0.6em 0.7em;
+}
+
+@media (max-width: 767px) {
+  .ps-services .ps-service {
+    max-height: 50px;
+    overflow-y: hidden;
+    font-size: 12px;
+  }
+  .ps-services-font {
+    max-height: fit-content !important;
+  }
+
+  .ps-custom-services {
+    font-size: 28px !important;
+    max-height: fit-content !important;
+    max-width: 100% !important;
+  }
+  .ps-custom-services1 {
+    font-size: 18px !important;
+    max-height: fit-content !important;
+    max-width: 100% !important;
+  }
+  .ps-custom-services2 {
+    font-size: 10px !important;
+    max-height: fit-content !important;
+    max-width: 100% !important;
+  }
+
+  .content-container{
+    padding:10px 0;
+  }
+
+  .demo-button {
+    font-size: 18px;
+    padding: 5px 10px;
+  }
+
+  .linkBoxHome, .video-section{
+    width:85%;
+    margin: auto;
+  }
+  .belowHeadSec{
+    padding: 5% 5%;
+    text-align: center;
+  }
+
+  .midSec .paragraph .event-paragraph-p{
+    max-width: 90%;
+  }
+
+  .homeTabCont{
+    width:90%
+  }
+
+  .homeTabCont .tabcontent{
+    width:90%;
+  }
+
+  .homeTabCont .tabcontent .info-section .content-items,.homeTabCont .tabcontent .info-section .content-items-info{
+    margin-left: 0px;
+    padding:25px;
+  }
+
+  .homeTabCont .tabcontent .imgCont img{
+    margin-left:0;
+  }
+  
+  .homeTabCont .tabcontent .row{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+  }
+
+  .homeTabCont .tabcontent .row .info-section {
+      order:2;
+  }
+
+  .homeTabCont .tabcontent .row .imgCont {
+      order:1;
+  }
+
+  .homeTab{
+    width:100%;
+  }
+
+  .homeTab .tablinks{
+    width: 48%;
+    margin: 0 1%;
+  }
 }
