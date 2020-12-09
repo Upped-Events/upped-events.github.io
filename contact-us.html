@@ -122,7 +122,7 @@
       </div>
     </nav>
   </header>
-  <div class="abt_us_banner" style="height:100px;"> 
+  <div class="abt_us_banner" style="height:107px;"> 
 	  <p class="abt_us_banner_text" >Contact Us</p> 
   </div>
   <section class="hero_content">
@@ -130,26 +130,26 @@
       <div class=" ps-container">
         <div class="container custoom-width-styl">
           <div class="row br-2 manage-padding">
-		      <button class="tablinks" onclick="location.href='faq.html'" type="button" style="margin-top:3%;background-color:#389a7f;color: white; width:100%; padding:10px;"> FAQ</button>
+		  <button class="tablinks" onclick="location.href='faq.html'" type="button" style="background-color:#389a7f;color: white; width:100%; margin-top:20px;padding:10px;"> FAQ</button>
             <div class="info-section col-md-6 col-sm-6">
 				
               <div class="how-we-can-help">
                 <h5>Ask how we can help you</h5>
                 <div class="sub-content">
                   <h6><i class="fa fa-chevron-right  email-icon"></i> See our platform in action</h6>
-                  <p>
+                  <p class="contactusinfo">
                     Upped was created to be risk-free for event owners (after all, attendees spend 50% more 
                     with our solution!) Call us, learn what Upped can do with your data, and then jump in 
                     when you are ready.
                   </p>
                   <h6><i class="fa fa-chevron-right  email-icon"></i>	Master data-driven marketing</h6>
-                  <p>
+                  <p class="contactusinfo">
                     Understand attendees on another level by using event data that is recorded, organized, 
                     and then presented to you alongside discounts recommended by Upped’s AI  to increase 
                     event revenues.
                   </p>
                   <h6><i class="fa fa-chevron-right  email-icon"></i> Invest now to grow your event’s tomorrow</h6>
-                  <p>The earlier you switch to Upped, the greater the anticipated increase in revenue 
+                  <p class="contactusinfo">The earlier you switch to Upped, the greater the anticipated increase in revenue 
                     for your event.  Upped works by measuring data and then reacting to it; the more our 
                     AI knows, the more your event grows.
                   </p>
@@ -159,12 +159,12 @@
                 <h5>Points of Contact</h5>
                 <div class="sub-content">
                   <h6>Information &amp; Sales</h6>
-                  <p>
+                  <p class="contactusinfo">
                     <i class="fa fa-envelope  email-icon"></i> sales@uppedevents.com <br/>
                     <i class="fa fa-phone email-icon"></i> (215) 962-9530
                   </p>
                   <h6 class="support">Support</h6>
-                  <p>
+                  <p class="contactusinfo">
                     <i class="fa fa-envelope  email-icon"></i> support@uppedevents.com <br/> 
                     <i class="fa fa-phone email-icon"></i> (215) 962-9530
                   </p>
@@ -172,7 +172,7 @@
               </div>
               <div class="event-inc">
                 <h5>Address</h5>
-                <div class="sub-content">
+                <div class="sub-content contactusinfo">
                   <p class="no-margin"><i class="fa fa-map-marker address-icon"></i> Upper Events Inc.</p>
                   <p class="no-margin">3675 Market Street</p>
                   <p class="no-margin">Philadephia, PA19104</p>
@@ -181,7 +181,7 @@
               </div>
             </div>
             <div class="get-in-touch col-md-6 col-sm-6">
-              <div class="row no-margin">
+              <form class="row no-margin">
                 <h5 class="get-in-touch-heading">Get in touch with Upped</h5>
                 <div class="mb-20 col-md-6 col-sm-6">
                   <input class="form-control" type="text" id="firstName" required>
@@ -192,15 +192,16 @@
                   <label class="floating" for="lastName">Last Name</label>
                 </div>
                 <div class="mb-20 col-md-12 col-sm-12">
-                  <input class="form-control" type="text" id="organisationName" required>
+                  <input class="form-control" type="text" id="organisationName">
                   <label class="floating" for="organisationName">Organization Name</label>
                 </div>
                 <div class="mb-20 col-md-12 col-sm-12">
-                  <input class="form-control" type="text" id="email" required>
+                  <input class="form-control" type="email" id="email" required>
                   <label class="floating" for="email">Email</label>
                 </div>
                 <div class="mb-20 col-md-12 col-sm-12 ">
                   <select  class="form-control" id="vendor">
+                    <option value data-isdefault="true"></option>
                     <option value="Vendor">Vendor</option>
                     <option value="Attendee">Attendee</option>
                     <option value="Event Owner">Event Owner</option>
@@ -215,19 +216,19 @@
                   <!-- <input class="form-control move-right" type="text"> -->
                 </div>
                 <div class="mb-20 col-md-12 col-sm-12 ">
-                  <input class="form-control" type="text" id="subject" required>
+                  <input class="form-control" type="text" id="subject">
                   <label class="floating" for="subject">Subject</label>
                   <!-- <input class="form-control move-right" type="text"> -->
                 </div>
                 <div class="mb-20 col-md-12 col-sm-12">
-                  <textarea row="5" class="form-control mb-8" type="text" id="message" required></textarea>
+                  <textarea row="5" class="form-control mb-8" type="text" id="message"></textarea>
                   <label class="floating" for="message">Message</label>
                   <!-- <button class="submit">Submit</i></button> -->
                   <a class="ps-offer btton-section" href="#">
                     <button class="demo-button">Submit</button>
                   </a>
                 </div>
-              </div>
+              </form>
             </div>
           </div>
         </div>
